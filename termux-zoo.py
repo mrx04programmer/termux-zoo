@@ -35,7 +35,7 @@ def main():
         clear()
         banner()
         print(f"{O}[o] {W}Escaneando con nmap a {host}...")
-        sh(f"./.s {host}")
+        sh(f"s {host}")
         print(f"{G}[x] {W}{host} ha sido escaneado exitosamente.")
     elif "exploit" in module:
         host = sys.argv[2]
@@ -72,7 +72,7 @@ def main():
     elif "create-vuln" in module:
         s = ['dhfmcl0', '019xMalfW4', 'wcC1k98', '00wrlcdoa', 'Pwdor569', 'adLdfj.10', 'Pwqjch125', 'Usmclzao156scfwer9', 'mmswLpacfwRERe12Fwe']
         passkeys = random.choice(s)+random.choice(s)
-        passkey = random.choice(passkeys)
+        passkey = str(random.choice(passkeys)), str(random.choice(s)), str(random.choice(s))
         host = sys.argv[2]
         port = int(input(f"{G}Puerto a atacar >> {W}"))
         clear()
