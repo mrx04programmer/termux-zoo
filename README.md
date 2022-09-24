@@ -6,9 +6,13 @@
 
 ## Instalación
 Para su instalación , se debe seguir los siguientes pasos:
-1. Darle permiso de ejecución al instalador
+1. Descargar y entrar a la carpeta de la herramienta
+> git clone https://github.com/mrx04programmer/termux-zoo.git
+
+> cd termux-zoo
+2. Darle permiso de ejecución al instalador
 > chmod +x install.sh
-2. Ejecutar el instalador
+3. Ejecutar el instalador
 > ./install.sh
 
 ## Ejecución
