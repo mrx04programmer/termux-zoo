@@ -74,7 +74,7 @@ def main():
         except Exception:
             print(f"{R}ERR {W}la conexión no se pudo lograr a {host}")
     elif "create-vuln" in module:
-        s = ['dhfmcl0', '019xMalfW4', 'wcC1k98', '00wrlcdoa', 'Pwdor569', 'adLdfj.10', 'Pwqjch125']
+        s = ['dhfmcl0', '019xMalfW4', 'wcC1k98', '00wrlcdoa', 'Pwdor569', 'adLdfj.10', 'Pwqjch125', 'Usmclzao156scfwer9', 'mmswLpacfwRERe12Fwe']
         passkeys = random.choice(s)+random.choice(s)
         passkey = random.choice(passkeys)
         host = sys.argv[2]
